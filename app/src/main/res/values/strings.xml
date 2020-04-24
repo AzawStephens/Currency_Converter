@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="image_desc">Money Image</string>
+    <string name="instructions">Enter the dollar amount to convert</string>
+    <string name="input_hint">USD</string>
+    <string name="button_text">CONVERT</string>
+    <string name="euro">EURO</string>
+
+</resources>
