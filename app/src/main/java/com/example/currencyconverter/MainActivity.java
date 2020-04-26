@@ -15,7 +15,7 @@ public void convert(View view)
     EditText input = (EditText)findViewById(R.id.amountEditText);
     TextView euro = (TextView)findViewById(R.id.euroTextView);
     double inputDouble =  Double.parseDouble( input.getText().toString())* 0.7579;
-    String inputStr = String.valueOf(inputDouble);
+    String inputStr = String.format("%.2f", inputDouble);
     euro.setText(inputStr);
     Toast.makeText(this,inputStr,Toast.LENGTH_LONG).show();
 
